@@ -24,7 +24,7 @@ jobs:
     steps:
            - name: Unzip project
              run: |
-               cd path/to/zip-folder
+               cd
                unzip -q ./Switch2Launcher_Xcode_DolphinFull.zip -d extracted
                rsync -av extracted/ ./
                rm -rf extracted
