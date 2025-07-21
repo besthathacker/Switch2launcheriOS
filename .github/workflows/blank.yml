@@ -24,10 +24,10 @@ jobs:
     steps:
            - name: Unzip project
              run: |
-               if [ -f "Switch2Launcher_Xcode_DolphinFull.zip" ]; then
+               if [ -f "./Switch2Launcher_Xcode_DolphinFull.zip" ]; then
                  mkdir extracted
-                 unzip -q Switch2Launcher_Xcode_DolphinFull.zip -d extracted
-                 rm Switch2Launcher_Xcode_DolphinFull.zip
+                 unzip -q ./Switch2Launcher_Xcode_DolphinFull.zip -d extracted
+                 rm ./Switch2Launcher_Xcode_DolphinFull.zip
                  rsync -av extracted/ ./
                  rm -rf extracted
                else
