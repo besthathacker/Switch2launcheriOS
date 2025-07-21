@@ -26,7 +26,7 @@ jobs:
              run: |
                if [ -f "Switch2Launcher_v4_upload.zip" ]; then
                  mkdir extracted
-                 unzip -q Switch2Launcher_v4_upload.zip -d extracted
+                 unzip -q Switch2Launcher_Xcode_DolphinFull.zip -d extracted
                  rm Switch2Launcher_v4_upload.zip
                  rsync -av extracted/ ./
                  rm -rf extracted
