@@ -25,4 +25,4 @@ jobs:
            - name: Unzip project
              run: |
                cd
-               unzip -q Switch2Launcher_Xcode_DolphinFull.zip
+               unzip -q Switch2launcheriOS/Switch2Launcher_Xcode_DolphinFull.zip
